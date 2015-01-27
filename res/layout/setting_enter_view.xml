@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="vertical" >
+    
+      <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/gray_white" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="testTitle"
+        android:textColor="#000000"
+        android:layout_centerVertical="true"
+        android:textSize="18sp" />
+
+    <!-- android:clickable="false"属性设置了禁止CheckBox单击， -->
+
+    <ImageView
+        android:id="@+id/cb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:clickable="false"
+        android:src="@drawable/jiantou1_pressed" />
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_title"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/cb"
+        android:text="testDes"
+        android:textColor="#99000000"
+        android:layout_centerVertical="true"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray_white" />
+
+</RelativeLayout>

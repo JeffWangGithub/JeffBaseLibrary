@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- style="@style/ProgressBarBig" -->
+    <!--
+         <ProgressBar
+        android:indeterminateDrawable="@drawable/loading_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    -->
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" 
+        android:indeterminateDrawable="@drawable/rotate_loading_mls"
+        android:indeterminateDuration="1800" />
+
+</FrameLayout>

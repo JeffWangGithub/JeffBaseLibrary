@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullDownEditText">
+       <attr name="hint" format="string"/>
+       <attr name="text" format="string"/>
+       <attr name="rightImageSrc" format="reference|color" />
+       <attr name="rightImageBg" format="reference|color" />
+	</declare-styleable>
+      <!--声明的时候必须指定name，指定给哪个控件声明属性，要设置全限定类名  -->
+    <declare-styleable name="baseLibrary">
+        <attr name="titleTop" format="string"/>
+        <attr name="des_on" format="string"/>
+        <attr name="des_off" format="string"/>
+        <attr name="des" format="string" />
+    </declare-styleable>
+    
+</resources>
